@@ -6,5 +6,11 @@ document.addEventListener('DOMContentLoaded', function () {
         const square = document.createElement('div');
         square.classList.add('square');
         container.appendChild(square);
+
+        square.addEventListener('mouseover', function () {
+            square.style.backgroundColor = 'black';
+        });
+
+        
     }
 });
